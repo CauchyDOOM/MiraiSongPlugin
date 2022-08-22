@@ -107,7 +107,7 @@ public class MiraiSongPlugin extends JavaPlugin {
 		sources.put("网易电台节目", new NetEaseAdvancedRadio());
 		sources.put("网易电台", new NetEaseRadioSource());
 		sources.put("网易HQ", new NetEaseHQMusicSource());
-		sources.put("酷狗", new KugouMusicSource());
+		sources.put("原神", new KugouMusicSource());
 		sources.put("千千", new BaiduMusicSource());
 		sources.put("Bilibili", new BiliBiliMusicSource());
 		sources.put("喜马拉雅", new XimalayaSource());
@@ -312,7 +312,7 @@ public class MiraiSongPlugin extends JavaPlugin {
 			commands.put("#QQ", makeTemplate("QQ音乐", "Mirai"));// 标准样板
 			commands.put("#网易", makeTemplate("网易", "Mirai"));
 			commands.put("#网易电台", makeTemplate("网易电台节目", "Mirai"));
-			commands.put("#酷狗", makeTemplate("酷狗", "Mirai"));
+			commands.put("#原神", makeTemplate("原神", "Mirai"));
 			commands.put("#千千", makeTemplate("千千", "XML"));
 			commands.put("#点歌", (event, args) -> {
 				String sn = String.join(spliter, Arrays.copyOfRange(args, 3, args.length));
