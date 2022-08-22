@@ -31,7 +31,7 @@ public class KugouMusicSource implements MusicSource {
 	@Override
 	public MusicInfo get(String keyword) throws Exception {
 		keyword=Utils.urlEncode(keyword);
-		return new MusicInfo("audio_name", "author_name", "https://q1.qlogo.cn/g?b=qq&nk=2425845116&s=3", "https://q1.qlogo.cn/g?b=qq&nk=2425845116&s=3", "http://233366.proxy.nscc-gz.cn:8888/?speaker=%E5%85%AB%E9%87%8D%E7%A5%9E%E5%AD%90&text=%E6%97%A9%E4%B8%8A%E5%A5%BD%EF%BC%8C%E4%BB%8A%E5%A4%A9%E5%A4%A9%E6%B0%94%E6%80%8E%E4%B9%88%E6%A0%B7", "Genshin","",205141);
+		return new MusicInfo("audio_name", "author_name", "https://q1.qlogo.cn/g?b=qq&nk=2425845116&s=3", "http://233366.proxy.nscc-gz.cn:8888/?speaker=%E5%85%AB%E9%87%8D%E7%A5%9E%E5%AD%90&text=%E6%97%A9%E4%B8%8A%E5%A5%BD%EF%BC%8C%E4%BB%8A%E5%A4%A9%E5%A4%A9%E6%B0%94%E6%80%8E%E4%B9%88%E6%A0%B7" + keyword, "https://q1.qlogo.cn/g?b=qq&nk=2425845116&s=3", "Genshin","",205141);
 	}
 
 }
